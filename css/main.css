@@ -17,6 +17,33 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+header {
+  background-color: #cccccc;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+}
+.nav {
+  list-style-type: none;
+  padding: 0;
+}
+.nav a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-size: 100%;
+}
+.img-flex {
+  width: 100%;
+  display: block;
+}
+.gutter {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+}
 .grid {
   margin: 0;
   padding: 0;
@@ -116,6 +143,12 @@ html {
 
 @media only screen and (min-width: 25em) {
 
+.nav {
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+}
 .unit-s-hidden {
   display: none;
   visibility: hidden;
@@ -160,6 +193,14 @@ html {
 
 @media only screen and (min-width: 38em) {
 
+h1 {
+  float: left;
+}
+.nav {
+  padding-top: 1em;
+  padding-left: 20%;
+  float: left;
+}
 .unit-m-hidden {
   display: none;
   visibility: hidden;
@@ -273,6 +314,9 @@ html {
 
 @media only screen and (min-width: 60em) {
 
+.nav {
+  padding-left: 25%;
+}
 .unit-l-hidden {
   display: none;
   visibility: hidden;
