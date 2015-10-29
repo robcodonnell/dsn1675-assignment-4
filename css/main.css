@@ -24,15 +24,20 @@ header {
 .h {
   display: block;
   float: none;
+  text-align: center;
+  background-color: #e2e2e2;
+  margin: 0;
 }
 h1 {
   text-align: center;
 }
-.h {
-  text-align: left;
-}
 .title {
   margin-top: 0;
+  text-align: center;
+  padding-top: 1em;
+}
+.phase {
+  background-color: #e2e2e2;
 }
 .nav {
   list-style-type: none;
@@ -48,6 +53,35 @@ h1 {
 .nav2 a {
   text-decoration: none;
 }
+.foot {
+  list-style-type: none;
+  padding-left: 1.5em;
+}
+.foot a {
+  text-decoration: none;
+}
+.deck {
+  clear: both;
+  text-align: center;
+  background-color: #e2e2e2;
+  overflow: hidden;
+}
+.char {
+  background-color: #e2e2e2;
+}
+.second {
+  background-color: #eeeeee;
+}
+a {
+  padding: .75em;
+}
+li {
+  padding: 0.75em;
+}
+a:hover {
+  background-color: #1678da;
+  color: #fff;
+}
 body {
   margin: 0;
   font-size: 100%;
@@ -60,7 +94,6 @@ body {
 .gutter {
   padding-left: 1.5em;
   padding-right: 1.5em;
-  padding-top: 1em;
 }
 .grid {
   margin: 0;
@@ -180,6 +213,9 @@ body {
 .nav2 li {
   display: inline-block;
 }
+.foot li {
+  display: inline-block;
+}
 .unit-s-hidden {
   display: none;
   visibility: hidden;
@@ -238,6 +274,13 @@ h1 {
   padding-top: 1em;
   padding-left: 20%;
   float: left;
+}
+.c {
+  display: inline;
+  float: left;
+}
+.foot {
+  padding-left: 0;
 }
 .unit-m-hidden {
   display: none;

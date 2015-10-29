@@ -7,6 +7,8 @@
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">
+
 </head>
 
 <header>
@@ -29,13 +31,13 @@
 </header>
 
 <body>
-  <h1 class="h">Moons</h1>
+  <h1 class="h pad-t pad-b">Moons</h1>
 
-  <div class="grid">
+  <div class="grid gutter pad-t">
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
         <div class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1-2">
+        <div class="unit xs-1 s-1 m-1 l-1-2 push">
           <img class="img-flex" src="img/venus-moon-1.jpg" alt="not venus's real moon">
         </div>
         <div class="unit xs-1 s-1 m-1 l-1-2">
@@ -43,11 +45,11 @@
           <p>This moon is amazing it looks like it’s habitable by humans.</p>
         </div>
 
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
           <dl>
-            <dd>Diameter (km):</dd> <dt>22.2 km</dt>
-            <dd>Mass (kg):</dd> <dt>2×10 ^ 15 km</dt>
-            <dd>Orbital period:</dd> <dt>30.35 h</dt>
+            <dd class="push-none milli">Diameter (km):</dd> <dt class="push">22.2 km</dt>
+            <dd class="push-none milli">Mass (kg):</dd> <dt class="push">2×10 ^ 15 km</dt>
+            <dd class="push-none milli">Orbital period:</dd> <dt class="push">30.35 h</dt>
           </dl>
         </div>
 
@@ -57,7 +59,7 @@
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <div class="grid">
 
-      <div class="unit xs-1 s-1 m-1 l-1-2">
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
         <img class="img-flex" src="img/venus-moon-2.jpg" alt="not real either">
       </div>
 
@@ -66,11 +68,11 @@
       <p>Look at all the pretty colours of this moon—mustn’t be real-colour.</p>
     </div>
 
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <dl>
-        <dd>Diameter (km):</dd> <dt>12.6 km</dt>
-        <dd>Mass (kg):</dd> <dt>10.8×10 ^ 15 km</dt>
-        <dd>Orbital period:</dd> <dt>7.66 h</dt>
+        <dd class="push-none milli">Diameter (km):</dd> <dt class="push">12.6 km</dt>
+        <dd class="push-none milli">Mass (kg):</dd> <dt class="push">10.8×10 ^ 15 km</dt>
+        <dd class="push-none milli">Orbital period:</dd> <dt class="push">7.66 h</dt>
       </dl>
     </div>
 
@@ -81,12 +83,12 @@
   </div>
 </body>
 
-<div class="grid">
-  <div class="unit xs-1 s-1 m-1 l-1 gutter">
+<div class="grid phase">
+  <div class="unit xs-1 s-1 m-1 l-1 gutter pad-t">
   <h2>Discovery of Venus's Moons</h2>
 </div>
 
-  <div class="unit xs-1 s-1 m-1 l-1-4 gutter">
+  <div class="unit xs-1 s-1 m-1 l-1-4 gutter push">
     <img class="img-flex" src="img/venus-phases.jpg" alt="da phases">
   </div>
 
@@ -99,22 +101,5 @@
     </p>
   </div>
 </div>
-
-<footer>
-  © 2014 Venus Planetary Consortium
-  <ul class="foot">
-    <li>
-      <a href="#">Planet</a>
-    </li>
-
-    <li>
-      <a href="moons.html">Moons</a>
-    </li>
-
-    <li>
-      <a href="#">Exploration</a>
-    </li>
-  </ul>
-</footer>
 
 </html>
