@@ -17,71 +17,6 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-header {
-  background-color: #cccccc;
-  overflow: hidden;
-}
-.h {
-  display: block;
-  float: none;
-  text-align: center;
-  background-color: #e2e2e2;
-  margin: 0;
-}
-h1 {
-  text-align: center;
-}
-.title {
-  margin-top: 0;
-  text-align: center;
-  padding-top: 1em;
-}
-.phase {
-  background-color: #e2e2e2;
-}
-.nav {
-  list-style-type: none;
-  padding: 0;
-}
-.nav2 {
-  list-style-type: none;
-  padding: 0;
-}
-.nav a {
-  text-decoration: none;
-}
-.nav2 a {
-  text-decoration: none;
-}
-.foot {
-  list-style-type: none;
-  padding-left: 1.5em;
-}
-.foot a {
-  text-decoration: none;
-}
-.deck {
-  clear: both;
-  text-align: center;
-  background-color: #e2e2e2;
-  overflow: hidden;
-}
-.char {
-  background-color: #e2e2e2;
-}
-.second {
-  background-color: #eeeeee;
-}
-a {
-  padding: .75em;
-}
-li {
-  padding: 0.75em;
-}
-a:hover {
-  background-color: #1678da;
-  color: #fff;
-}
 body {
   margin: 0;
   font-size: 100%;
@@ -194,28 +129,6 @@ body {
 
 @media only screen and (min-width: 25em) {
 
-
-.title {
-  text-align: center;
-  padding-top: 1em;
-}
-.nav {
-  text-align: center;
-  padding: none;
-}
-.nav2 {
-  text-align: center;
-  padding: none;
-}
-.nav li {
-  display: inline-block;
-}
-.nav2 li {
-  display: inline-block;
-}
-.foot li {
-  display: inline-block;
-}
 .unit-s-hidden {
   display: none;
   visibility: hidden;
@@ -260,32 +173,6 @@ body {
 
 @media only screen and (min-width: 38em) {
 
-body {
-  font-size: 110%;
-  line-height: 1.4;
-}
-h1 {
-  float: left;
-}
-.title {
-  float: left;
-  padding-left: 1em;
-  vertical-align: 
-}
-.nav {
-  padding-top: 1em;
-  float: left;
-}
-.nav2 {
-  vertical-align: middle;
-}
-.c {
-  display: inline;
-  float: left;
-}
-.foot {
-  padding-left: 0;
-}
 .unit-m-hidden {
   display: none;
   visibility: hidden;
@@ -399,10 +286,6 @@ h1 {
 
 @media only screen and (min-width: 60em) {
 
-body {
-  font-size: 120%;
-  line-height: 1.5;
-}
 .unit-l-hidden {
   display: none;
   visibility: hidden;
